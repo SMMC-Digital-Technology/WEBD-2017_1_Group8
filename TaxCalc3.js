@@ -1,6 +1,5 @@
-var nameInput = document.getElementById("inputText");
-var outputLine = document.getElementById("outputTag");
-var numberInput = document.getElementById("inputNumber");
+var inputPay = document.getElementById("inputPay");
+var outputTax = document.getElementById("outputTax");
 
 function buttonPress() {
     var number = numberInput.value;
