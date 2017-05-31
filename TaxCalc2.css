@@ -1,0 +1,31 @@
+html {
+    background: linear-gradient(90deg, blue, cyan);
+}
+
+
+/*Set the maximum size of the body and then center*/
+
+body {
+    max-width: 10000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 3.5em;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    text-decoration: bold;
+}
+
+li {
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
