@@ -1,0 +1,33 @@
+html {
+    background: linear-gradient(90deg, orange, cyan 80%, teal);
+}
+
+/*Set the maximum size of the body and then center*/
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+p {
+    font-family: monospace;
+    font-size: 1.6em;
+    background: rgba(255,255,255, 0.7);
+}
+
+label {
+    font-size: 1.6em;
+    font-family: sans-serif;
+}
+
+/* this selector will only style the number inputs, not any other input*/
+input[type="number"] {
+    font-size: 1em;
+    background: rgba(255,255,255, 0.5);
+}

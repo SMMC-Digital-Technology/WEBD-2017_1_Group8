@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Guessing Game</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- title -->
+        <h1>Guessing Game</h1>
+        <!-- The paragraph is used to display the computer's response -->
+        <p id="statement">I am thinking of a number between 0 and 100.</p>
+        <!-- Where the player puts their guess -->
+        <label>Guess:
+            <input type="number" id="inputGuess" onInput="guessMade()" min="0" max="100" step="1">
+            <!-- The onInput attributes indicates the function to run when the value of the input is changed. The min and max attributes set the smallest and largest values the input can hold. The step attribute indicates how much the buttons change the value. -->
+        </label>
+        <!-- load the script -->
+        <script src="rng.js"></script>
+    </body>
+</html>
