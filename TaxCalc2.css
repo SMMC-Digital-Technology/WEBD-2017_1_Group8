@@ -41,3 +41,7 @@ input[type="number"] {
     width: 700px;
     position: center;
 }
+
+button {
+    font-size: 3em;
+}
