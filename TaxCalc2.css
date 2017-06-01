@@ -33,3 +33,11 @@ li {
 div {
     text-align: center;
 }
+
+input[type="number"] {
+    font-size: 3em;
+    float: inherit;
+    height: 50px;
+    width: 700px;
+    position: center;
+}
