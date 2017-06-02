@@ -17,14 +17,14 @@
             <li>Click on the Calculate button</li>
             <li>Your tax amount will show in the bottom box</li>
         </ol>
-        <div>
-            <!--The input and output boxes, with the button that starts the calculations<-->
-            <input type="number" id="inputPay">
-            <button type="button">Calculate</button>
-            <br/>
-            <br/>
-            <input type="number" id="outputTax" disabled>
-        </div>
+    <div>
+        <!--The input and output boxes, with the button that starts the calculations<-->
+        <input type="number" id="inputPay">
+        <button type="button" onclick="buttonPress()">Calculate</button>
+        <br/>
+        <br/>
+        <input type="number" id="outputTax" disabled>
+    </div>
         <!--Linking the javascript file<-->
         <script src="TaxCalc3.js"></script>
         <br>
@@ -39,11 +39,10 @@
         <br>
         <br>
         <br>
+        <!-- The table for the tax rules-->
         <div>
             <footer><img src="Rule.PNG" alt="Rule"></footer>
         </div>
     </body>
 
-
-
-</html>
+</html>     
