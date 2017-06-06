@@ -45,3 +45,11 @@ input[type="number"] {
 button {
     font-size: 3em;
 }
+
+li {
+    text-align:center;
+}
+
+ol {
+    list-style-position: inside;
+}
